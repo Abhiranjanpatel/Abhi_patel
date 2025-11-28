@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Abhiranjanpatel.github.io/Abhi_patel"
+  "homepage": "https://Abhiranjanpatel.github.io/Abhi_patel",
   "name": "landingpage-react-template",
   "private": true,
   "dependencies": {
@@ -14,9 +14,8 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
-    "deploy": "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
